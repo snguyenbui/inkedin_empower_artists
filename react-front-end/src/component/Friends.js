@@ -18,20 +18,19 @@ export default function Friends(props) {
         console.log(err.message);
       });
   }, []);
-  console.log("friends = ", friends);
+  // console.log("friends = ", friends);
 
   const friendsListUsernames = friends.map((friend) => {
     return friend.second_username;
   });
 
+  console.log("friends[0] = ", friends);
   return (
     <div>
+      <Messenger activeUser={props.activeUser} />
       {friends[0] && <p> Friends loaded </p>}
       {friends[0] && <p>{friendsListUsernames}</p>}
       <div className="Friend">You have reached the friend route</div>
-      <div>
-        <Messenger activeUser={props.activeUser} />
-      </div>
     </div>
   );
 }
