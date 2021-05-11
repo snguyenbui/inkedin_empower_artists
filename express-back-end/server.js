@@ -27,15 +27,8 @@ App.get("/api/artworks", (req, res) => {
 
 App.put("/api/artworks", (req, res) => {
   console.log(req.body);
-  const {
-    id,
-    title,
-    imgLink,
-    projectLink,
-    description,
-    forSale,
-    price,
-  } = req.body;
+  const { id, title, imgLink, projectLink, description, forSale, price } =
+    req.body;
   const data = db
     .query(
       `INSERT INTO artworks (author_id, title, img_link, project_link, descrip, for_sale, price) VALUES ($1, $2, $3, $4, $5, $6, $7);`,
@@ -99,12 +92,16 @@ App.get("/api/jobs/:id", (req, res) => {
     });
 });
 
-App.get("/api/messages", (req, res) => {
-  const data = db.query("SELECT * FROM messages").then((response) => {
-    res.json({
-      messages: response.rows,
+App.get("/api/messages/:id", (req, res) => {
+  const data = db
+    .query("SELECT * FROM messages WHERE sender_id = $1 OR receiver_id = $1", [
+      req.params.id,
+    ])
+    .then((response) => {
+      res.json({
+        messages: response.rows,
+      });
     });
-  });
 });
 
 App.get("/api/users/:id", (req, res) => {
