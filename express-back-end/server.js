@@ -130,7 +130,7 @@ App.get("/api/friends/:id", (req, res) => {
       first_user.id as first_id,
       first_user.first_name as first_fname,
       first_user.last_name as first_lname, 
-      second_user.username as username,
+      second_user.username as second_username,
       second_user.id as second_id,
       second_user.first_name as second_fname,
       second_user.last_name as second_lname
@@ -225,23 +225,6 @@ App.put("/api/jobs", (req, res) => {
       });
     });
 });
-
-// App.put("/api/jobs/", (req, res) => {
-//   const { title, description, pay, company, location, id } = req.body;
-//   const data = db
-//     .query(
-//       `INSERT INTO jobs (title, description, pay, company, location, user_id) VALUES ($1, $2, $3, $4, $5, $6)
-//       ON CONFLICT (title, user_id)
-//       DO UPDATE SET
-//       EXCLUDED.user_id;`,
-//       [title, description, pay, company, location, id]
-//     )
-//     .then((response) => {
-//       res.json({
-//         jobs: response.rows,
-//       });
-//     });
-// });
 
 // THIS EDITS A JOB
 App.put("/api/jobs/:job_id", (req, res) => {

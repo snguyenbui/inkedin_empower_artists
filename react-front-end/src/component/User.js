@@ -52,6 +52,8 @@ export default function User(props) {
 
   return (
     <div className={classes.root}>
+      {console.log("state.users[id-1]", state.users)}
+      {console.log("state.portfolio", state.portfolio)}
       <Grid
         container
         item
@@ -62,15 +64,16 @@ export default function User(props) {
       >
         {/* PROFILE PIC */}
         <Grid item xs={12} sm={6} md={4}>
-          {state.portfolio[0] && <ProfilePic userInfo={state.portfolio[0]} />}
+          {/* THIS id WILL BECOME BUGGY WHEN USERS CAN DELETE PROFILES FROM THE DATABASE */}
+          {state.users[id] && <ProfilePic userInfo={state.users[id - 1]} />}
         </Grid>
 
         {/* USER INFO */}
         <Grid item xs={12} sm={6} md={4}>
-          <div>{state.portfolio[0] && state.portfolio[0].username}</div>
-          <div>{state.portfolio[0] && state.portfolio[0].first_name}</div>
-          <div>{state.portfolio[0] && state.portfolio[0].last_name}</div>
-          <div>{state.portfolio[0] && state.portfolio[0].cool_fact}</div>
+          <div>{state.portfolio[0] && state.portfolio[id - 1].username}</div>
+          <div>{state.portfolio[0] && state.portfolio[id - 1].first_name}</div>
+          <div>{state.portfolio[0] && state.portfolio[id - 1].last_name}</div>
+          <div>{state.portfolio[0] && state.portfolio[id - 1].cool_fact}</div>
         </Grid>
 
         {/* ADD ARTWORK BUTTON */}
