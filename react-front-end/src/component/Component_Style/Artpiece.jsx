@@ -4,13 +4,14 @@ const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: "90%",
     margin: "5%",
+    marginTop: "120px",
     // maxWidth: 550,
     height: "auto",
-    transition: "transform .2s" /* Animation */,
+    //transition: "transform .2s" /* Animation */,
 
     "&:hover": {
-      opacity: 0.9,
-      transform: "scale(1.03)",
+      //opacity: 0.9,
+      //transform: "scale(1.03)",
       // "z-index": "9999",
     },
   },
