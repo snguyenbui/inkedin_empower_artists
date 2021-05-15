@@ -1,60 +1,91 @@
 import { makeStyles } from "@material-ui/core/styles";
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme) => ({
+  container_container: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "center",
+    background: "#00007f",
+    padding: theme.spacing(1),
+    // [theme.breakpoints.down("sm")]: {
+    //   display: "flex",
+    //   flexDirection: "column",
+    // },
+    // [theme.breakpoints.up("md")]: {
+    //   display: "flex",
+    //   flexDirection: "column",
+    // },
+  },
   page_container: {
     background: "#00007f",
-
-    width: "100%",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    width: "80%%",
     height: "100%",
     margin: "0",
     padding: "0",
-    // paddingTop: "10%",
+    paddingTop: "20%",
+    paddingLeft: "12%",
+    marginRight: "-50px",
+    zIndex: "1",
   },
   title_text: {
     background: "#00007f",
     margin: "0",
-    paddingTop: "100px",
-    // padding: "50px",
-    // display: "flex",
-    // flexDirection: "column",
-    // alignSelf: "flex-end",
-    // justifyContent: "center",
+    color: "lavender",
   },
   h2_text: {
     margin: "0",
-    padding: "50px",
+    paddingTop: "50px",
     paddingBottom: "0%",
-    // flexDirection: "column",
-    // display: "flex",
-    // alignSelf: "flex-end",
-    // justifyContent: "center",
+    color: "lavender",
   },
   deep_logo_container: {
-    // border: "1px solid red",
     width: "auto",
-    // paddingLeft: "30%",
-    // paddingRight: "30%",
-
-    // height: "40%",
     flexDirection: "column",
     alignItems: "flex-end",
     justifyContent: "center",
-    // position: "fixed",
-    // top: 0,
-    // position: "fixed",
     bottom: 0,
-    // background: "#00007f",
   },
   image: {
-    // border: "1px solid red",
-    // flexDirection: "column",
     alignItems: "flex-end",
     justifyContent: "center",
+  },
+  go_home_text: {
+    paddingTop: "0px",
+    margin: "0px",
+    textDecoration: "none",
+    alignSelf: "flex-end",
+    textAlign: "left",
+    color: "white",
+    "&:hover": {
+      color: "#B9A1BE",
+    },
+  },
+  fish_hook_container: {
+    display: "flex",
+    flexDirection: "row",
+    paddingLeft: "35%",
+    width: "10%",
+    paddingBottom: "50px",
+    justifySelf: "flex-end",
+    // background: "#00007f",
+    "&:hover": {
+      transform: "scale(1.05)",
+    },
+  },
+  link_container: {
+    // background: "#00007f",
+    // display: "flex",
+    // justifySelf: "flex-start",
+    // marginLeft: "-100px",
+    // zIndex: "-1",
   },
   // main: {
   //   background: "#00007f",
   //   paddingBottom: "30px" /*whatever the height of your footer is*/,
   // },
-});
+}));
 
 export { useStyles };
