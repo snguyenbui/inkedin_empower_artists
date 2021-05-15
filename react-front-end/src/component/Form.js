@@ -14,7 +14,7 @@ export default function BasicTextFields(props) {
     imgLink: "",
     projectLink: "",
     forSale: false,
-    price: 0,
+    price: undefined,
     titleError: false,
     imageError: false,
     imageErrorMessage: "",
@@ -161,6 +161,7 @@ export default function BasicTextFields(props) {
         /> */}
 
       <Button
+        data-type="submit"
         type="submit"
         value="Submit"
         variant="contained"
@@ -170,6 +171,7 @@ export default function BasicTextFields(props) {
         Submit
       </Button>
       <Button
+        data-type="cancel"
         type="button"
         value="Submit"
         variant="contained"

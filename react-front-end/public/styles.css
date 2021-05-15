@@ -25,6 +25,12 @@
 [data-nav-type="focal"].Mui-focused:focus {
   color: orange;
 }
+[data-type="submit"].MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary {
+  background-color: rgba(109, 42, 109, 0.644);
+}
+[data-type="cancel"].MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedSecondary {
+  background-color: rgba(124, 57, 48, 0.644);
+}
 /* [data-card-type="profile-pic"].MuiCardContent-root {
   color: #503333;
 } */
