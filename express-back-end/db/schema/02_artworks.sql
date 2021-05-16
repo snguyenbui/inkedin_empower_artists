@@ -4,8 +4,8 @@ CREATE TABLE artworks (
   id SERIAL PRIMARY KEY NOT NULL,
   author_id INTEGER REFERENCES users(id) ON DELETE CASCADE,
   title VARCHAR(255) NOT NULL,
-  img_link VARCHAR(255) NOT NULL,
-  project_link VARCHAR(255) NOT NULL,
+  img_link VARCHAR(500) NOT NULL,
+  project_link VARCHAR(500) NOT NULL,
   descrip VARCHAR(255) NOT NULL,
   for_sale BOOLEAN DEFAULT false,
   price VARCHAR(55) DEFAULT NULL

@@ -25,9 +25,9 @@ VALUES
 ('TheChosenOne','Arry','Potter',6049999999,'password', 'https://images.pexels.com/photos/5682176/pexels-photo-5682176.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', 'But you have heard of me.'),
 ('BiaCaixeta','Bia','Caixeta',6049999999,'password', 'https://itsbiacaixeta.files.wordpress.com/2021/05/img_1311.jpg?w=2048', 'From Itu, SP, Brazil to Vancouver, Canada. I''ll continue exploring nature until I''ve found the Sasquatch.'),
 ('Pacificspace','Gray','',6049999999,'password', 'https://pbs.twimg.com/profile_images/1370875222761480193/Qk1KwE5V_400x400.jpg', 'professional baja blast drinker 💦 (they/them)'),
-('SamT','Sam','T',6049999999,'password', 'https://cdn.discordapp.com/attachments/816053793598341140/844351550188814366/20210221_174219.jpg', ''),
-('ArtbyRobMack','Rob','Mach',6049999999,'password', 'https://cdn.discordapp.com/attachments/844327276493275166/844336664192090163/38011827_1842451815791993_7508032690914852864_n.png', 'Psychedelic Artist');
--- ('','','',6049999999,'password', '', ''),
+('SamT','Sam','T',6049999999,'password', 'https://cdn.discordapp.com/attachments/816053793598341140/844351550188814366/20210221_174219.jpg', 'Im kind of famous at BurningMan (they/them)'),
+('ArtbyRobMack','Rob','Mach',6049999999,'password', 'https://cdn.discordapp.com/attachments/844327276493275166/844336664192090163/38011827_1842451815791993_7508032690914852864_n.png', 'Psychedelic Artist'),
+('lopez.lopez','Roberto','Lopez',6049999999,'password', 'https://scontent-sea1-1.xx.fbcdn.net/v/t1.18169-9/10271487_10152208965096317_884722168236640888_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=Ei-XwbyIAPIAX9q7asc&_nc_ht=scontent-sea1-1.xx&oh=241bbcf0fb836bb82a14e9edceb39c36&oe=60C9A459', 'Time Is Art');
 -- ('','','',6049999999,'password', '', ''),
 -- ('','','',6049999999,'password', '', ''),
 -- ('')

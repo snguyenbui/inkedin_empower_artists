@@ -19,6 +19,7 @@ export default function SearchBar(props) {
           event.preventDefault();
           props.filteredSearch(searchInputValue);
           history.push("/searchResults");
+          setSearchInputValue("");
         }}
       >
         <TextField
