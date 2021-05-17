@@ -3,6 +3,7 @@ import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
+      height: 410,
       "& > *": {
         margin: "1.15%",
         width: "25ch",
@@ -15,7 +16,7 @@ const useStyles = makeStyles((theme: Theme) =>
       justifyContent: "center",
       alignItems: "center",
       background: "lavender",
-      borderRadius: "0.5%",
+      borderRadius: "0.9%",
     },
   })
 );

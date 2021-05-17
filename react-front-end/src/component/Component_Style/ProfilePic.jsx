@@ -22,6 +22,7 @@ const useStyles = makeStyles((theme) => ({
       opacity: 0.9,
     },
     background: "lavender",
+    borderRadius: "0.9%",
   },
   media: {
     height: 350,

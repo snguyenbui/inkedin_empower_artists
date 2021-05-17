@@ -17,7 +17,9 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: "50px",
   },
   rootUserInfo: {
-    // minWidth: 275,
+    // backgroundImage:
+    //   "https://www.transparenttextures.com/patterns/lined-paper.png",
+    // // minWidth: 275,
     display: "flex",
     flexDirection: "column",
     // justifyContent: "space-around",
@@ -25,7 +27,32 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "flex-start",
     maxWidth: "550",
     height: 392,
-    background: "lavender",
+
+    // background: "lavender",
+    // padding: "20%",
+  },
+  rootUserInfoText: {
+    // paddingTop: "60px",
+    // paddingLeft: "70px",
+    // paddingRight: "70px",
+    // paddingBottom: "60px",
+    // padding: "20px",
+    width: "90%",
+    height: "100%",
+    borderLeft: "3px solid #6d0323",
+    marginLeft: "5%",
+    paddingLeft: "5%",
+    paddingTop: "4%",
+
+    // left: "0",
+    textAlign: "left",
+  },
+  underline: {
+    color: "#00007f",
+    // fontweight: "4px",
+    // size: 10,
+    // height: "10px",
+    border: "1px solid #00007f",
   },
   bullet: {
     display: "inline-block",
@@ -37,6 +64,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: 24,
     color: "black",
     fontStyle: "bold",
+    // textDecoration: "underline #6d0323",
   },
   username: {
     fontSize: 20,

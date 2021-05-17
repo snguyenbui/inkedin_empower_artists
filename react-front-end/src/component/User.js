@@ -81,24 +81,31 @@ export default function User(props) {
         {state.portfolio[0] && (
           <Grid item xs={12} sm={6} md={4}>
             <Card>
-              <CardContent className={classes.rootUserInfo}>
-                <Typography
-                  className={classes.title}
-                  color="textSecondary"
-                  gutterBottom
-                >
-                  {state.portfolio[0].first_name}
-                  {state.portfolio[0].last_name}
-                </Typography>
-                <div>
-                  <Typography className={classes.username}>
-                    {state.portfolio[0].username}
+              <CardContent
+                className={classes.rootUserInfo}
+                data-type="background"
+              >
+                <div className={classes.rootUserInfoText}>
+                  <Typography
+                    className={classes.title}
+                    color="textSecondary"
+                    gutterBottom
+                  >
+                    {state.portfolio[0].first_name}
+                    &nbsp;
+                    {state.portfolio[0].last_name}
+                    <hr className={classes.underline}></hr>
                   </Typography>
-                </div>
-                <div>
-                  <Typography className={classes.description}>
-                    {state.portfolio[0].cool_fact}
-                  </Typography>
+                  <div>
+                    <Typography className={classes.username}>
+                      {state.portfolio[0].username}
+                    </Typography>
+                  </div>
+                  <div>
+                    <Typography className={classes.description}>
+                      {state.portfolio[0].cool_fact}
+                    </Typography>
+                  </div>
                 </div>
               </CardContent>
             </Card>

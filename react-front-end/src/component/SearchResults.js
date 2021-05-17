@@ -13,10 +13,58 @@ import TableContainer from "@material-ui/core/TableContainer";
 import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import Paper from "@material-ui/core/Paper";
-import { useStyles } from "./Component_Style/SearchResults.jsx";
+// import { useStyles } from "./Component_Style/SearchResults.jsx";
+import { withStyles, makeStyles } from "@material-ui/core/styles";
 
 const SearchResults = (props) => {
   const storage = JSON.parse(localStorage.getItem("search_results"));
+
+  const useStyles = makeStyles({
+    table: {
+      minWidth: 650,
+    },
+    root: {
+      flexGrow: 1,
+    },
+    paper: {
+      textAlign: "center",
+    },
+    gridContainer: {
+      // paddingLeft: "50px",
+      // paddingRight: "50px",
+      // paddingTop: "50px",
+      paddingBottom: "50px",
+    },
+    page_container: {
+      paddingTop: "50px",
+      margin: "3%",
+    },
+    page_titles: {
+      color: "#B9A1BE",
+    },
+    table_container: {
+      // marginLeft: "3%",
+      // marginRight: "3%",
+    },
+  });
+
+  const StyledTableCell = withStyles((theme) => ({
+    head: {
+      backgroundColor: theme.palette.common.black,
+      color: theme.palette.common.white,
+    },
+    body: {
+      fontSize: 14,
+    },
+  }))(TableCell);
+
+  const StyledTableRow = withStyles((theme) => ({
+    root: {
+      "&:nth-of-type(odd)": {
+        backgroundColor: theme.palette.action.hover,
+      },
+    },
+  }))(TableRow);
 
   const classes = useStyles();
   const history = useHistory();
@@ -83,35 +131,37 @@ const SearchResults = (props) => {
   // RETURN SEARCHED JOBS
   const jobs = () => {
     return (
-      <TableContainer component={Paper}>
+      <TableContainer component={Paper} className={classes.table_container}>
         <Table className={classes.table} aria-label="simple table">
           <TableHead>
-            <TableRow>
-              <TableCell>Title</TableCell>
-              <TableCell align="right">User Name</TableCell>
-              <TableCell align="right">Description</TableCell>
-              <TableCell align="right">Pay</TableCell>
-              <TableCell align="right">Company</TableCell>
-              <TableCell align="right">Location</TableCell>
-            </TableRow>
+            <StyledTableRow>
+              <StyledTableCell>Title</StyledTableCell>
+              <StyledTableCell align="right">User Name</StyledTableCell>
+              <StyledTableCell align="right">Description</StyledTableCell>
+              <StyledTableCell align="right">Pay</StyledTableCell>
+              <StyledTableCell align="right">Company</StyledTableCell>
+              <StyledTableCell align="right">Location</StyledTableCell>
+            </StyledTableRow>
           </TableHead>
           <TableBody>
             {storage.jobs.map((row) => (
-              <TableRow
+              <StyledTableRow
                 key={row.id}
                 onClick={() => {
                   history.push(`/jobs/${row.id}`);
                 }}
               >
-                <TableCell component="th" scope="row">
+                <StyledTableCell component="th" scope="row">
                   {row.title}
-                </TableCell>
-                <TableCell align="right">{row.username}</TableCell>
-                <TableCell align="right">{row.description}</TableCell>
-                <TableCell align="right">{row.pay}</TableCell>
-                <TableCell align="right">{row.company}</TableCell>
-                <TableCell align="right">{row.location}</TableCell>
-              </TableRow>
+                </StyledTableCell>
+                <StyledTableCell align="right">{row.username}</StyledTableCell>
+                <StyledTableCell align="right">
+                  {row.description}
+                </StyledTableCell>
+                <StyledTableCell align="right">{row.pay}</StyledTableCell>
+                <StyledTableCell align="right">{row.company}</StyledTableCell>
+                <StyledTableCell align="right">{row.location}</StyledTableCell>
+              </StyledTableRow>
             ))}
           </TableBody>
         </Table>
@@ -121,11 +171,11 @@ const SearchResults = (props) => {
 
   return (
     <div className={classes.page_container}>
-      <h2 className={classes.page_titles}>{storage && "Art!"}</h2>
+      <h1 className={classes.page_titles}>{storage && "Art!"}</h1>
       <div>{storage && artworks()}</div>
-      <h2 className={classes.page_titles}>{storage && "People!"}</h2>
+      <h1 className={classes.page_titles}>{storage && "People!"}</h1>
       <div>{storage && users()}</div>
-      <h2 className={classes.page_titles}>{storage && "Jobs!"}</h2>
+      <h1 className={classes.page_titles}>{storage && "Jobs!"}</h1>
       <div>{storage && jobs()}</div>
     </div>
   );
