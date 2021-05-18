@@ -29,8 +29,16 @@ export default function SearchBar(props) {
           size="small"
           onChange={(e) => setSearchInputValue(e.target.value)}
           label="Search"
+          InputLabelProps={{
+            style: {
+              opacity: 0.7,
+              fontWeight: 600,
+              color: "lavender",
+            },
+          }}
           data-nav-type="focal"
           InputProps={{ className: classes.searchField }}
+          placeholder="placeholder_text"
         />
         <Button
           variant="outlined"

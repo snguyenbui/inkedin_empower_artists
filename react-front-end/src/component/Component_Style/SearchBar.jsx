@@ -1,3 +1,4 @@
+import { red } from "@material-ui/core/colors";
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme: Theme) =>
@@ -9,10 +10,21 @@ const useStyles = makeStyles((theme: Theme) =>
         size: "small",
       },
     },
+
+    // textField: {
+    //   border: "1px solid #B9A1BE",
+    //   borderRadius: theme.shape.borderRadius,
+    //   color: "#red",
+    //   "::placeholder": {
+    //     color: "red",
+    //   },
     textField: {
       border: "1px solid #B9A1BE",
       borderRadius: theme.shape.borderRadius,
-      color: "#B9A1BE",
+      color: "#red",
+      placeholer_text: {
+        color: "red",
+      },
     },
     searchButton: {
       width: "20ch",
@@ -22,6 +34,9 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     searchField: {
       color: "white",
+      "::placeholder": {
+        color: "red",
+      },
     },
   })
 );
