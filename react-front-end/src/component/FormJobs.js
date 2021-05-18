@@ -122,6 +122,7 @@ export default function FormJobs(props) {
         type="submit"
         value="Submit"
         variant="contained"
+        style={{ background: "#00007f", color: "lavender", fontWeight: 900 }}
         onClick={() => props.onSubmit(state)}
       >
         Submit

@@ -69,7 +69,6 @@ const SearchResults = (props) => {
   const classes = useStyles();
   const history = useHistory();
 
-  console.log("artpiece.username", storage.artworks);
   // RETURN SEARCHED ARTWORKS
   const artworks = () => {
     return (

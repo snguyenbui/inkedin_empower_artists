@@ -7,6 +7,7 @@
 .conversation-list-item:hover {
   background: #eeeef1;
   cursor: pointer;
+  border-radius: 30px;
 }
 
 .conversation-active {
