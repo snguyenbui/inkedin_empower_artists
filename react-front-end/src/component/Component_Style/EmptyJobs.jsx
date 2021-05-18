@@ -4,10 +4,11 @@ const useStyles = makeStyles({
   buttonContainer: {
     padding: "10px",
   },
-  // button: {
-  //   width: "20%",
-  //   height: "auto",
-  // },
+  button: {
+    width: "7%",
+    height: "auto",
+    color: "lavender",
+  },
 });
 
 export { useStyles };

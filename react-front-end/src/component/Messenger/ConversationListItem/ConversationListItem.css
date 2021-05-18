@@ -10,7 +10,9 @@
 }
 
 .conversation-active {
-  background: rgb(187, 187, 224);
+  background: rgb(138, 138, 255);
+  color: #2B2C3B;
+  border-radius: 30px;
 }
 
 .conversation-photo {

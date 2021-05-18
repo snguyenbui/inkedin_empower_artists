@@ -1,21 +1,43 @@
 .compose {
   padding: 10px;
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 100px;
+  /* display: grid; */
   align-items: center;
-  background: white;
-  border-top: 1px solid #eeeef1;
+  background: #2B2C3B;
+  border-top: 1px solid #B9A1BE;
   position: fixed;
-  width: 80.6%;
+  /* width: 80.6%; */
+  width: calc(100% - 200px);
   bottom: 0px;
+  /* border: 2px solid #B9A1BE; */
+  /* border-radius: 20%; */
 }
 
 @supports (backdrop-filter: blur(20px)) {
   .compose {
-    border: none;
-    background-color: rgba(255, 255, 255, 0.8);
+    
+    background: #2B2C3B;
     backdrop-filter: blur(20px);
+    
+    
   }
 }
+.MuiButtonBase-root.MuiButton-root.MuiButton-contained {
+  background: none;
+  /* opactiy: 100%; */
+  width: 25%;
+  color: lavender;
+  font-weight: 900;
+  margin-left: 20px;
+  height: 45px;
+  border: 2px solid #B9A1BE;
+  border-radius: 7px;
+}
+
+/* .send_button {
+  color: #B9A1BE;
+} */
 
 .compose-input {
   flex: 1;
@@ -24,17 +46,28 @@
   height: 40px;
   background: none;
   width: 100%;
+  border: 2px solid #B9A1BE;
+  border-radius: 7px;
+  color: lavender;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .compose-input::placeholder {
-  opacity: 0.3;
+  opacity: 0.6;
+  font-weight: 600;
+  color: lavender;
+  text-decoration: lavender;
+  padding-left: 10px;
+  font-size: 14px;
 }
 
 .compose .toolbar-button {
-  color: #bbbbbf;
+  border: 2px solid #bbbbbf;
   margin-left: 15px;
 }
 
 .compose .toolbar-button:hover {
   color: #99999c;
 }
+

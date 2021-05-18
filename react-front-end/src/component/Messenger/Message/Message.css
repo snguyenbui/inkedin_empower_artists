@@ -1,6 +1,7 @@
 .message {
   display: flex;
   flex-direction: column;
+  margin-right: 5px;
 }
 
 .message .timestamp {
@@ -44,7 +45,9 @@
 
 .message .bubble-container .bubble {
   margin: 1px 0px;
-  background: #f4f4f8;
+  background: #B9A1BE;
+  color: #2B2C3B;
+  font-weight: 700;
   padding: 10px 15px;
   border-radius: 20px;
   max-width: 75%;
@@ -55,8 +58,9 @@
 }
 
 .message.mine .bubble-container .bubble {
-  background: #007aff;
-  color: white;
+  background: rgb(138, 138, 255);
+  color: #2B2C3B;
+  font-weight: 700;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   border-top-right-radius: 2px;

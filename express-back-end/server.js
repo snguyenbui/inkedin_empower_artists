@@ -208,16 +208,22 @@ App.put("/api/friends/", (req, res) => {
   const { first_user_id, second_user_id } = req.body;
   const data = db
     .query(
-      `INSERT INTO friends (first_user_id, second_user_id) 
-      VALUES ($1, $2)
-      ON CONFLICT (first_user_id, second_user_id)
-      DO NOTHING;`,
+      `SELECT * FROM friends where (first_user_id = $1 AND second_user_id = $2) OR (first_user_id = $2 AND second_user_id = $1);`,
       [first_user_id, second_user_id]
     )
     .then((response) => {
-      res.json({
-        friends: response.rows,
-      });
+      if (response.rows[0] === undefined) {
+        const data = db
+          .query(
+            `INSERT INTO friends (first_user_id, second_user_id) VALUES ($1, $2)ON CONFLICT (first_user_id, second_user_id) DO NOTHING;`,
+            [first_user_id, second_user_id]
+          )
+          .then((response) => {
+            res.json({
+              friends: response.rows,
+            });
+          });
+      }
     });
 });
 

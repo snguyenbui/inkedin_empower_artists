@@ -7,6 +7,8 @@ const useStyles = makeStyles((theme) => ({
     marginTop: "120px",
     // maxWidth: 550,
     height: "auto",
+    // background: "#B9A1BE",
+    background: "#B9A1BE",
     //transition: "transform .2s" /* Animation */,
 
     "&:hover": {

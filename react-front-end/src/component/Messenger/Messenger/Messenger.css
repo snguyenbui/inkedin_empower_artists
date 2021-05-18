@@ -2,9 +2,13 @@
   display: grid;
   width: 100%;
   height: 100vh;
-  background: #eeeef1;
+  /* margin-bottom: 50px; */
+  background: #B9A1BE;
+  margin-top: 69px;
 
-  grid-template-columns: 350px auto;
+
+  /* grid-template-columns: minmax(25%, auto) minmax(75%, auto); */
+  grid-template-columns: 200px auto;
   grid-template-rows: 60px auto 60px;
   grid-column-gap: 1px;
   grid-row-gap: 1px;
@@ -12,12 +16,14 @@
 
 .container {
   padding: 10px;
+  padding-bottom: 100px;
 }
 
 .scrollable {
   position: relative;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
+
 }
 
 .sidebar {
@@ -30,9 +36,13 @@
   background: white;
   grid-row-start: 1;
   grid-row-end: span 3;
+  background: #2B2C3B;
+  height: 100%;
+  /* margin-bottom: 50px; */
 }
 
 .footer {
   grid-column-start: 2;
   background: white;
+  /* margin-top: 100px; */
 }

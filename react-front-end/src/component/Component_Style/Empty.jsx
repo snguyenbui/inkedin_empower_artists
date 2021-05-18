@@ -12,6 +12,8 @@ const useStyles = makeStyles({
   button: {
     width: "20%",
     height: "auto",
+    color: "lavender",
+    // color: "#B9A1BE",
   },
 });
 

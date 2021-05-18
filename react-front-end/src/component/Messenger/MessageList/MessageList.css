@@ -1,4 +1,13 @@
 .message-list-container {
   padding: 10px;
   padding-bottom: 70px;
+  margin-bottom: 200px;
+  /* padding-bottom: 70px; */
+  background: #2B2C3B;
+  height: 100%;
+  /* border: 1px solid white; */
+}
+
+.message-list {
+
 }

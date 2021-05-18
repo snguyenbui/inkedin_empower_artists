@@ -27,9 +27,29 @@
 }
 [data-type="submit"].MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary {
   background-color: #00007f;
+  color: lavender;
+  font-weight: 900;
 }
 [data-type="cancel"].MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedSecondary {
   background-color: #6d0323;
+  color: lavender;
+  font-weight: 900;
+}
+[data-type="submit_job"].MuiButtonBase-root.MuiButton-root.MuiButton-contained.makeStyles-margin-44.makeStyles-textField-46.makeStyles-withoutLabel-45 {
+  background-color: #00007f;
+  color: lavender;
+  font-weight: 900;
+}
+/* .MuiButtonBase-root.MuiButton-root.MuiButton-contained.send_button */
+[data-type="send_button"].MuiButtonBase-root.MuiButton-root.MuiButton-contained {
+  /* border: 2px solid #B9A1BE; */
+  /* color: lavender;
+  font-weight: 900; */
+}
+[data-type="cancel_job"].MuiButtonBase-root.MuiButton-root.MuiButton-contained.makeStyles-margin-44.makeStyles-textField-46.makeStyles-withoutLabel-45 {
+  background-color: #6d0323;
+  color: lavender;
+  font-weight: 900;
 }
 [data-type="background"].MuiCardContent-root.makeStyles-rootUserInfo-26 {
   /* background-color: #e6e6fa; */

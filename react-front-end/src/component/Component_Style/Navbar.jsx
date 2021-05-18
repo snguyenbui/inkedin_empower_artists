@@ -98,6 +98,9 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: "blue",
       },
     },
+    dot_dot_dot: {
+      color: "#B9A1BE",
+    },
   },
 }));
 

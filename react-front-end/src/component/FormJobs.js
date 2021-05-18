@@ -118,6 +118,7 @@ export default function FormJobs(props) {
           classes.textField,
           classes.withoutLabel
         )}
+        data-type="submit_job"
         type="submit"
         value="Submit"
         variant="contained"
@@ -131,6 +132,7 @@ export default function FormJobs(props) {
           classes.textField,
           classes.withoutLabel
         )}
+        data-type="cancel_job"
         type="button"
         value="Cancel"
         variant="contained"

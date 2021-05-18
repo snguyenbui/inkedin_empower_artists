@@ -227,7 +227,8 @@ export default function PrimarySearchAppBar(props) {
                   aria-controls={mobileMenuId}
                   aria-haspopup="true"
                   onClick={handleMobileMenuOpen}
-                  color="inherit"
+                  // color="inherit"
+                  style={{ color: "#B9A1BE" }}
                 >
                   <MoreIcon />
                 </IconButton>
