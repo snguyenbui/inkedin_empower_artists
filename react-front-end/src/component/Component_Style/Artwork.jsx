@@ -13,7 +13,7 @@ const useStyles = makeStyles({
     "&:hover": {
       opacity: 0.8,
       transform: "scale(1.03)",
-      background: "#C9A1BE",
+      // background: "#C9A1BE",
       // "z-index": "9999",
     },
   },
