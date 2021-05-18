@@ -2,6 +2,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles({
   rootContainer: {
+    marginTop: "60px",
     width: "100%",
     display: "flex",
     flexDirection: "row",
