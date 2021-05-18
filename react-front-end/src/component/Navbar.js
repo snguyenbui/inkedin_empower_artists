@@ -129,7 +129,7 @@ export default function PrimarySearchAppBar(props) {
                 <Typography className={classes.title} variant="h6" noWrap>
                   <img
                     className={classes.logo}
-                    src="../images/Inkedin_squid.png"
+                    src="../images/Inkedin_squid_with_text.png"
                     alt="Inkedin Squid"
                   />
                 </Typography>

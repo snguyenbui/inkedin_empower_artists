@@ -79,8 +79,8 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   logo: {
-    width: "50px",
-    height: "auto",
+    height: "50px",
+    width: "auto",
     marginTop: "6px",
     marginRight: "20px",
     alignSelf: "flex-start",
