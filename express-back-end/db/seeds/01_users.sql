@@ -21,4 +21,6 @@ VALUES
 ('TheRock','The','Rock',6049999999,'password', 'https://static.wikia.nocookie.net/prowrestling/images/a/ad/Wwe_the_rock_png_by_double_a1698_day9ylt-pre_%281%29.png/revision/latest?cb=20190225014047', 'Im a nice guy'),
 ('DaveChapelle','Dave','Chapelle',6049999999,'password', 'https://cdn.britannica.com/96/194196-050-90AA3813/Dave-Chappelle-2006.jpg', 'Just sprinkle some crack on him and get out of here..'),
 ('CaptainHook','Captain','Hook',6049999999,'password', 'https://static.wikia.nocookie.net/jakeandtheneverlandpirates/images/7/7d/Captain_Hook-Profile.jpg/revision/latest?cb=20191007034722', 'Why am I the villain in this story?'),
-('JackSparrow','Jack','Sparrow',6049999999,'password', 'https://ohmy.disney.com/wp-content/uploads/2014/10/Q3-Jack-Sparrow.png', 'But you have heard of me.');
+('JackSparrow','Jack','Sparrow',6049999999,'password', 'https://ohmy.disney.com/wp-content/uploads/2014/10/Q3-Jack-Sparrow.png', 'But you have heard of me.'),
+('AttackSparrow','Jack','Sparrow',6049999999,'password', 'https://ohmy.disney.com/wp-content/uploads/2014/10/Q3-Jack-Sparrow.png', 'But you have heard of me.'),
+('BiaCaixeta','Bia','Caixeta',6049999999,'password', 'https://itsbiacaixeta.files.wordpress.com/2021/05/img_1311.jpg?w=2048', 'From Itu, SP, Brazil to Vancouver, Canada. I''ll continue exploring nature until I''ve found the Sasquatch.');
