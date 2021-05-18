@@ -80,6 +80,7 @@ const SearchResults = (props) => {
           justify="center"
         >
           {storage.artworks.map((artpiece) => {
+            console.log("artpiece:  ", artpiece);
             return (
               <Grid item xs={12} sm={6} md={4}>
                 <Artwork

@@ -17,8 +17,9 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: "50px",
   },
   rootUserInfo: {
-    // backgroundImage:
-    //   "https://www.transparenttextures.com/patterns/lined-paper.png",
+    backgroundColor: "#ecebfa",
+    backgroundImage:
+      "https://www.transparenttextures.com/patterns/lined-paper.png",
     // // minWidth: 275,
     display: "flex",
     flexDirection: "column",

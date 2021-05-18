@@ -25,11 +25,12 @@ export default function RecipeReviewCard(props) {
   const { id } = useParams();
   const [expanded, setExpanded] = React.useState(false);
   const [artpiece, setArtpiece] = useState({});
-  console.log(artpiece);
+  // console.log(artpiece);
 
   const handleExpandClick = () => {
     setExpanded(!expanded);
   };
+  console.log("AP props :::", props);
 
   useEffect(() => {
     axios.get(`/api/artworks/${id}`).then((res) => {

@@ -17,6 +17,7 @@ export default function Artworks(props) {
           justify="center"
         >
           {props.art.map((artpiece) => {
+            // console.log("artpiece other :", artpiece);
             return (
               <Grid item xs={12} sm={6} md={4}>
                 <Artwork
