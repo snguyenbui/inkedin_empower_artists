@@ -38,7 +38,7 @@ export default function MessageList(props) {
 
   const addMessage = (message) => {
     const messagePromise =
-      props.activeConversation[0] === props.activeUser
+      props.activeConversation[0] === `${props.activeUser}`
         ? axios.put("/api/messages", {
             sender_id: props.activeConversation[0],
             receiver_id: props.activeConversation[1],
