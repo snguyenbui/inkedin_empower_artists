@@ -33,16 +33,19 @@ export default function ProfilePic(props) {
 
   const isNotFriends = () => {
     let notFriends = true;
+    console.log("state.friends :", state.friends);
     state.friends.map((friend) => {
       if (
         friend.first_id === props.userInfo.user_id ||
-        friend.second_id === props.userInfo.user_id ||
-        state.activeUser === props.userInfo.user_id
+        friend.second_id === props.userInfo.user_id
       ) {
         notFriends = false;
       }
       return null;
     });
+    if (state.activeUser === props.userInfo.user_id) {
+      notFriends = false;
+    }
     return notFriends;
   };
 
