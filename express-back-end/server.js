@@ -14,7 +14,7 @@ App.get("/api/search", (req, res) => {
   const searchItem = req.query.query;
   Promise.all([
     db.query(
-      `SELECT * FROM artworks WHERE LOWER(title) LIKE $1 OR LOWER(descrip) LIKE $1`,
+      `SELECT * FROM artworks JOIN users on author_id = users.id WHERE LOWER(title) LIKE $1 OR LOWER(descrip) LIKE $1`,
       ["%" + searchItem.toLowerCase() + "%"]
     ),
     db.query(

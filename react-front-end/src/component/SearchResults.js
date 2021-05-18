@@ -69,6 +69,7 @@ const SearchResults = (props) => {
   const classes = useStyles();
   const history = useHistory();
 
+  console.log("artpiece.username", storage.artworks);
   // RETURN SEARCHED ARTWORKS
   const artworks = () => {
     return (
@@ -91,6 +92,7 @@ const SearchResults = (props) => {
                   forSale={artpiece.for_sale}
                   url={artpiece.project_link}
                   author_id={artpiece.author_id}
+                  username={artpiece.username}
                 />
               </Grid>
             );

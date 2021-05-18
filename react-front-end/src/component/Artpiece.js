@@ -51,7 +51,7 @@ export default function RecipeReviewCard(props) {
             <PermIdentityIcon />
           </IconButton>
         </Link>
-        <IconButton aria-label="share">
+        {/* <IconButton aria-label="share">
           <ShareIcon />
         </IconButton>
         <IconButton
@@ -63,7 +63,7 @@ export default function RecipeReviewCard(props) {
           aria-label="show more"
         >
           <ExpandMoreIcon />
-        </IconButton>
+        </IconButton> */}
       </CardActions>
       <CardContent className={classes.info_card}>
         <Typography className={classes.title}>{artpiece.title}</Typography>

@@ -40,6 +40,7 @@ const useStyles = makeStyles({
   titleRowText: {
     fontWeight: "900",
     fontSize: "18px",
+    color: "lavender",
     // textDecoration: "underline",
   },
   titleRow: {

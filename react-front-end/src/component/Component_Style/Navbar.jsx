@@ -99,7 +99,7 @@ const useStyles = makeStyles((theme) => ({
       },
     },
     dot_dot_dot: {
-      color: "#B9A1BE",
+      search: "#B9A1BE",
     },
   },
 }));

@@ -25,7 +25,7 @@ const useStyles = makeStyles({
     width: "100%",
     height: "100%",
     color: "white",
-    fontSize: 35,
+    fontSize: 40,
     position: "absolute",
     top: "50%",
     left: "50%",
@@ -41,6 +41,9 @@ const useStyles = makeStyles({
       background: "black",
       opacity: 0.7,
     },
+  },
+  subtext: {
+    fontSize: 27,
   },
   editDeleteButtons: {
     minWidth: "5px",

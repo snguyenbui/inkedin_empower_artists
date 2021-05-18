@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
     transform: "rotate(180deg)",
   },
   text: {
-    color: "lavender",
+    color: "#2B2C3B",
     fontSize: 35,
     position: "absolute",
     top: "50%",
@@ -48,12 +48,15 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     fontSize: 35,
+    color: "#2B2C3B",
   },
   author: {
     fontSize: 28,
+    color: "#2B2C3B",
   },
   description: {
     fontSize: 20,
+    color: "#2B2C3B",
   },
   info_card: {
     marginTop: "-30px",

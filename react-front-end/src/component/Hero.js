@@ -70,7 +70,7 @@ const Hero = (props) => {
         // transitionDuration="600"
         // transitionTimingFuction="ease-in-out"
       >
-        <h1>Generic Startup Hype Headline</h1>
+        {/* <h1>Generic Startup Hype Headline</h1> */}
       </LazyHero>
 
       {/* ... */}

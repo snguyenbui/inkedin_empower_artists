@@ -127,15 +127,17 @@ export default function FormJobs(props) {
         Submit
       </Button>
       <Button
-        className={clsx(
-          classes.margin,
-          classes.textField,
-          classes.withoutLabel
-        )}
+        className={classes.cancel_job}
+        // className={clsx(
+        //   classes.margin,
+        //   classes.textField,
+        //   classes.withoutLabel
+        // )}
         data-type="cancel_job"
         type="button"
         value="Cancel"
         variant="contained"
+        style={{ background: "#6d0323", color: "lavender", fontWeight: 900 }}
         onClick={() => props.onCancel()}
       >
         Cancel

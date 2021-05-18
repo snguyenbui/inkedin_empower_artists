@@ -46,11 +46,13 @@
   /* color: lavender;
   font-weight: 900; */
 /* } */ */
-[data-type="cancel_job"].MuiButtonBase-root.MuiButton-root.MuiButton-contained.makeStyles-margin-44.makeStyles-textField-46.makeStyles-withoutLabel-45 {
-  background-color: #6d0323;
+/* .MuiButtonBase-root.MuiButton-root.MuiButton-contained.makeStyles-margin-44.makeStyles-textField-46.makeStyles-withoutLabel-45 */
+/* [data-type="cancel_job"].MuiButtonBase-root.MuiButton-root.MuiButton-contained.makeStyles-margin-44.makeStyles-textField-46.makeStyles-withoutLabel-45 {
+  background: #6d0323 !important;
   color: lavender;
   font-weight: 900;
-}
+} */
+
 [data-type="search_placeholder"].MuiInputBase-input.MuiOutlinedInput-input.MuiInputBase-inputMarginDense.MuiOutlinedInput-inputMarginDense::placeholder {
   color: lavender;
   opacity: 1;

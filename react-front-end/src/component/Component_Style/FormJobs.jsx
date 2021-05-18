@@ -26,6 +26,9 @@ const useStyles = makeStyles((theme: Theme) =>
     textField: {
       width: "25ch",
     },
+    cancel_job: {
+      background: "red",
+    },
   })
 );
 

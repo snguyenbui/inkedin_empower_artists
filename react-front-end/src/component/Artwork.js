@@ -30,7 +30,10 @@ export default function Artwork(props) {
           >
             {props.title}
             <br />
-            {props.authorUsername}
+            <div className={classes.subtext}>
+              {props.authorUsername}
+              {props.username}
+            </div>
           </Typography>
         </CardActionArea>
       </Link>
