@@ -57,16 +57,16 @@
   color: lavender;
   opacity: 1;
 }
-/* [data-type="background"].MuiCardContent-root.makeStyles-rootUserInfo-26 { */
-  /* background-color: #e6e6fa; */
+[data-type="background"].MuiCardContent-root.makeStyles-rootUserInfo-26 {
+  background-color: #e6e6fa;
   /* background-color: #ecebfa; */
   /* background-image: url("https://www.transparenttextures.com/patterns/lined-paper.png"); */
   /* background-image: url("https://www.transparenttextures.com/patterns/exclusive-paper.png"); */
-  /* background-image: url("https://www.transparenttextures.com/patterns/notebook-dark.png"); */
+  background-image: url("https://www.transparenttextures.com/patterns/notebook-dark.png");
   /* background-image: url("https://www.transparenttextures.com/patterns/project-paper.png");  */
   /* background-image: url("https://www.transparenttextures.com/patterns/lined-paper-2.png"); */
   /* transform: scale(1.5); */
-/* } */
+}
 /* [data-card-type="profile-pic"].MuiCardContent-root {
   color: #503333;
 } */
