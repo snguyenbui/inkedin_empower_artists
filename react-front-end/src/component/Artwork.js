@@ -37,7 +37,7 @@ export default function Artwork(props) {
           </Typography>
         </CardActionArea>
       </Link>
-      {props.author_id === props.activeUser && (
+      {`${props.author_id}` === `${props.activeUser}` && (
         <CardActions>
           <IconButton
             size="small"
