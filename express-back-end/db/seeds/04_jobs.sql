@@ -1,9 +1,10 @@
 INSERT INTO jobs 
 (title, description, pay, company, location, user_id)
 VALUES
-('Job_one', 'description1', 200, 'THE greatest Company', 'Calgary', 1),
-('Job_two', 'description2', 300, null, 'Vancouver', 1),
-('Job_three', 'description3', 150, 'Another Company', 'Montreal', 1),
-('Job_four', 'description4', 450, 'Some Other Company', 'Toronto', 2),
-('Job_five', 'description3', 150, 'Ma and Pa Shop', 'Regina',2),
-('Job_six', 'description4', 450, null, 'Vancouver', 3);
+('Sculpter Wanted!', 'Needing a skilled soapstone carver. Contact me if intersted. Approx 300hrs of work.', 6000, '', 'Vancouver', 1),
+('Marble Restoration', 'Restoration on museum''s 1632 Roman sculptures. ', 55000, 'MOOA', 'Vancouver', 4),
+('Oil Painter Wanted', 'Looking for unique art.', 150, 'Me', 'Montreal', 3),
+('Photoshop Editing', 'Need some of my photos edited', 250, 'Jenny', 'Regina', 6),
+('Photography Teacher', 'Would like to learn how to improve my skills with my Canon 5D.', 150, 'Jenny', 'Regina', 6),
+('Kitemaker', 'We would like a series of 6 kites made. One for each for one member of our family.', 600, null, 'St. Johns', 8);
+

@@ -38,7 +38,7 @@ export default function SearchBar(props) {
           }}
           data-nav-type="focal"
           InputProps={{ className: classes.searchField }}
-          placeholder="placeholder_text"
+          placeholder="Search"
         />
         <Button
           variant="outlined"

@@ -23,4 +23,11 @@ VALUES
 ('JennySurfs','Jen','Barrels',6049999999,'password', 'https://images.pexels.com/photos/4577736/pexels-photo-4577736.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', 'Life''s a wave. Don''t miss the ride!'),
 ('Bernini','Gian Lorenzo','Bernini',6049999999,'password', 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Gian_Lorenzo_Bernini%2C_self-portrait%2C_c1623.jpg/220px-Gian_Lorenzo_Bernini%2C_self-portrait%2C_c1623.jpg', 'But you have heard of me.'),
 ('TheChosenOne','Arry','Potter',6049999999,'password', 'https://images.pexels.com/photos/5682176/pexels-photo-5682176.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', 'But you have heard of me.'),
-('BiaCaixeta','Bia','Caixeta',6049999999,'password', 'https://itsbiacaixeta.files.wordpress.com/2021/05/img_1311.jpg?w=2048', 'From Itu, SP, Brazil to Vancouver, Canada. I''ll continue exploring nature until I''ve found the Sasquatch.');
+('BiaCaixeta','Bia','Caixeta',6049999999,'password', 'https://itsbiacaixeta.files.wordpress.com/2021/05/img_1311.jpg?w=2048', 'From Itu, SP, Brazil to Vancouver, Canada. I''ll continue exploring nature until I''ve found the Sasquatch.'),
+('Pacificspace','Gray','',6049999999,'password', 'https://pbs.twimg.com/profile_images/1370875222761480193/Qk1KwE5V_400x400.jpg', 'professional baja blast drinker 💦 (they/them)'),
+('SamT','Sam','T',6049999999,'password', 'https://cdn.discordapp.com/attachments/816053793598341140/844351550188814366/20210221_174219.jpg', ''),
+('ArtbyRobMack','Rob','Mach',6049999999,'password', 'https://cdn.discordapp.com/attachments/844327276493275166/844336664192090163/38011827_1842451815791993_7508032690914852864_n.png', 'Psychedelic Artist');
+-- ('','','',6049999999,'password', '', ''),
+-- ('','','',6049999999,'password', '', ''),
+-- ('','','',6049999999,'password', '', ''),
+-- ('')
