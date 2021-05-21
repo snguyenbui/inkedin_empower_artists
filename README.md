@@ -11,25 +11,17 @@
 
 <img src="https://github.com/AdamHHart/inkedin_empower_artists/blob/master/react-front-end/public/docs/Inkedin_home.png?raw=true"
      alt="Inkedin_Home"
-     width=45%;/>
-     
-<img src="https://github.com/AdamHHart/inkedin_empower_artists/blob/master/react-front-end/public/docs/Inkedin_user_portfolio.png?raw=true"
+     width=45%;/> <img src="https://github.com/AdamHHart/inkedin_empower_artists/blob/master/react-front-end/public/docs/Inkedin_user_portfolio.png?raw=true"
      alt="Inkedin_User_Portfolio"
      width=45%;/>
-
 <img src="https://github.com/AdamHHart/inkedin_empower_artists/blob/master/react-front-end/public/docs/Inkedin_messenger.png?raw=true"
      alt="Inkedin_Messenger"
-     width=45%;/>
-
-<img src="https://github.com/AdamHHart/inkedin_empower_artists/blob/master/react-front-end/public/docs/Inkedin_job_board.png?raw=true"
+     width=45%;/><img src="https://github.com/AdamHHart/inkedin_empower_artists/blob/master/react-front-end/public/docs/Inkedin_job_board.png?raw=true"
      alt="Inkedin_Job_Board"
      width=45%;/>
-
 <img src="https://github.com/AdamHHart/inkedin_empower_artists/blob/master/react-front-end/public/docs/Inkedin_search_results.png?raw=true"
      alt="Inkedin_Search_Results"
-     width=45%;/>
-
-<img src="https://github.com/AdamHHart/inkedin_empower_artists/blob/master/react-front-end/public/docs/Inkedin_my_portfolio.png?raw=true"
+     width=45%;/><img src="https://github.com/AdamHHart/inkedin_empower_artists/blob/master/react-front-end/public/docs/Inkedin_my_portfolio.png?raw=true"
      alt="Inkedin_My_Portfolio"
      width=45%;/>
 
