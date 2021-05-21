@@ -31,7 +31,7 @@
 Clone the repo
 
 ``` 
-git clone <https://github.com/AdamHHart/inkedin_empower_artists.git> <pathname> 
+git clone https://github.com/snguyenbui/inkedin_empower_artists.git <pathname> 
 ```
 
 Install dependencies for both React and Express from inside their respective directories
