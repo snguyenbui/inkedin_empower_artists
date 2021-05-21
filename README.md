@@ -1,3 +1,62 @@
+
+
+# Inkedin
+## Empowering Artists
+
+Inkedin is a React + Express app where artists can share art, communicate, and find or post jobs. It has a built in job board, messenger, and search filter. Build a portfolio and show off the results of your efforts!
+
+
+## Setup
+To get a local copy of Inkedin up and running, follow these steps:
+
+Clone the repo
+``` git clone <https://github.com/your_username_/Project-Name.git> <filename> ```
+
+Install dependencies
+``` npm install ```
+
+setup PostgreSQL Database
+``` psql ```
+``` CREATE DATABASE inkedin_app ```
+exit PSQL with ctrl-q
+
+Seed the Database
+``` npm run db:reset ```
+
+Run App Locally!
+```npm start ```
+
+
+## Dependencies 
+* ReactJS
+* Express
+* NodeJS
+* PostgreSQL
+* MaterialUI
+* CSS
+
+
+## Contact
+
+* Adam Hart - @AdamHHart
+* James Biesenthal - @SeriusLL
+* Sunny Nguyen-Bui - @snguyenbui 
+
+Please contact us for any issues, funding, or job offers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # React + Express No-Fluff Boilerplate
 
 A boilerplate project for anyone interested in making a project that uses React and Express.
