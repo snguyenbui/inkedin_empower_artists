@@ -39,6 +39,7 @@ Install dependencies for both React and Express from inside their respective dir
 ``` 
 npm install 
 ```
+or
 ``` 
 yarn install 
 ```
@@ -65,6 +66,7 @@ Seed the Database in the Express backend
 ``` 
 npm run db:reset
 ```
+or
 ``` 
 yarn run db:reset
 ```
@@ -74,6 +76,7 @@ Run Express backend server Locally!
 ``` 
 npm start
 ```
+or
 ``` 
 yarn start
 ```
@@ -82,6 +85,7 @@ Run React front end Locally!
 ``` 
 npm start 
 ```
+or
 ``` 
 yarn start
 ```
