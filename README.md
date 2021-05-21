@@ -26,29 +26,55 @@
      width=45%;/>
 
 ## Setup
-##### To get a local copy of Inkedin up and running, follow these steps:
+### To get a local copy of Inkedin up and running, follow these steps:
 
 Clone the repo
 
-``` git clone <https://github.com/your_username_/Project-Name.git> <filename> ```
+``` 
+git clone <https://github.com/AdamHHart/inkedin_empower_artists.git> <pathname> 
+```
 
-Install dependencies
+Install dependencies for both React and Express from inside their respective directories
 
-``` npm install ```
+``` 
+npm install 
+```
 
-setup PostgreSQL Database
+Setup PostgreSQL Database
 
-``` psql ```
-``` CREATE DATABASE inkedin_app ```
-exit PSQL with ctrl-q
 
-Seed the Database
+``` 
+psql -U <username> <password>
+CREATE DATABASE inkedin_app 
+```
 
-``` npm run db:reset ```
+Configure a env file to connect a database to the backend - an example is provided as .env.example
 
-Run App Locally!
+``` 
+DB_HOST=  LOCALHOST
+DB_PORT=  DATABASE_PORT
+DB_USER=  DATABASE_USERNAME
+DB_PASS=  DATABASE_PASSWORD
+DB_NAME=  DATABASE_NAME 
+```
 
-```npm start ```
+Seed the Database in the Express backend
+
+``` 
+npm run db:reset
+```
+
+Run Express backend server Locally!
+
+``` 
+npm start
+```
+
+Run React front end Locally!
+
+``` 
+npm start 
+```
 
 
 ## Dependencies 
@@ -56,15 +82,13 @@ Run App Locally!
 * Express
 * NodeJS
 * PostgreSQL
-* MaterialUI
-* CSS
 
 
 ## Contact
-###### Please contact us for any issues, funding, or job offers.
+#### Please contact us for any issues, funding, or job offers.
 
 
 * ##### Adam Hart - @AdamHHart
-* ##### James Biesenthal - @SeriusLL
+* ##### James Biesenthal - @SiriusLL
 * ##### Sunny Nguyen-Bui - @snguyenbui 
   
