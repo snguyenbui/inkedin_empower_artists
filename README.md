@@ -39,7 +39,9 @@ Install dependencies for both React and Express from inside their respective dir
 ``` 
 npm install 
 ```
-
+``` 
+yarn install 
+```
 Setup PostgreSQL Database
 
 
@@ -63,19 +65,26 @@ Seed the Database in the Express backend
 ``` 
 npm run db:reset
 ```
+``` 
+yarn run db:reset
+```
 
 Run Express backend server Locally!
 
 ``` 
 npm start
 ```
-
+``` 
+yarn start
+```
 Run React front end Locally!
 
 ``` 
 npm start 
 ```
-
+``` 
+yarn start
+```
 
 ## Dependencies 
 * ReactJS
